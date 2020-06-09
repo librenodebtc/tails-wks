@@ -1,5 +1,12 @@
 #!/bin/bash
 
+###
+### Download latest version Wasabi
+### Install wasabi in Tails Persistent storage
+### Restore previos wallet folder
+###
+
+
 sudo dpkg -i Wasabi-1.1.11.1.deb
 
 wassabee </dev/null &>/dev/null &
