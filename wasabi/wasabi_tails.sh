@@ -5,8 +5,8 @@
 ### Install wasabi in Tails Persistent storage
 ### Restore previos wallet folder
 ###
-#WORK_FOLDER=/home/amnesia/Persistent/
-WORK_FOLDER=/home/llorens/tails-wks/
+WORK_FOLDER=$HOME/Persistent/
+
 
 #latest version
 WASABI_LATEST_VERSION="$(curl -s https://api.github.com/repos/zkSNACKs/WalletWasabi/releases/latest | grep "tag_name." | cut -d '"' -f 4 | cut -c 2- 2>/dev/null)"
